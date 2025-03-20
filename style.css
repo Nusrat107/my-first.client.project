@@ -1,0 +1,130 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+}
+.container {
+    width: 500px;
+    height: 540px;
+    background-color: white;
+    margin: auto;
+    margin-top: -900px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    border: 2px solid #007bff;
+}
+    
+
+
+.title {
+    /* text-align: center; */
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+   padding-top: 30px;
+    color:white;
+    
+}
+
+.title-1 {
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+   padding-top: 10px;
+    color:white;
+}
+.color {
+    background: rgb(0,136,168);
+    background: linear-gradient(177deg, rgba(0,136,168,1) 0%, rgba(77,69,145,1) 99%);
+     border-top-left-radius:17px;
+     border-top-right-radius:17px;
+     height: 100px;
+}
+
+.img{
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.card-content {
+    flex: 1;
+    margin-left: 250px;
+    margin-top: -105px;
+    padding-bottom: 10px !important;
+}
+
+.card-details{
+    margin-left: 40px;
+    margin-top: 50px;
+  
+}
+.card-details-1{
+    margin-left: 40px;
+    margin-top: 25px;
+  
+}
+.card-details-2{
+    margin-left: 40px;
+    margin-top: 25px;
+  
+}
+.card-details-3{
+    margin-left: 40px;
+    margin-top: 25px;
+  
+}
+
+.container-1 {
+    width: 500px;
+    height: 540px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    margin-top: 375px;
+    border-bottom-left-radius:17px;
+    border-bottom-right-radius:17px;
+  bottom: 10px;
+
+}
+
+
+.img-1{
+    margin-top: 210px;
+    margin-left: 90px;
+    color: #08634A;
+
+}
+
+.scan{
+    text-align: center;
+}
+
+.app{
+    color: #08634a;
+    margin-top: 20px !important;
+    margin-left: 20px;
+}
+.text{
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 951px) {
+    .hero{
+        font-size: 50px;
+        margin-left: 210px;
+    }
+}
